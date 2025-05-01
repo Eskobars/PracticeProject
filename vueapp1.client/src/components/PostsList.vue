@@ -16,7 +16,6 @@
     <ul v-else style="list-style-type: none; padding-left: 0;">
       <li v-for="post in posts" :key="post.id" style="padding: 10px 0; border-bottom: 1px solid #ddd;">
         <div style="display: flex; justify-content: space-between; align-items: center;">
-          <!-- Post title with bold styling -->
           <span style="font-weight: bold">{{ post.title }}</span>
 
           <!-- Buttons for each post aligned to the right -->
@@ -179,7 +178,6 @@
 </script>
 
 <style scoped>
-  /* Only modified the posts container width */
   .posts-container {
     max-width: 800px; /* Limiting the maximum width */
     margin: 0 auto; /* Centering the container */

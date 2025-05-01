@@ -44,7 +44,6 @@
 </template>
 
 <style scoped>
-  /* Flexbox container for soccer component */
   .soccer-component {
     display: flex;
     flex-direction: column;
