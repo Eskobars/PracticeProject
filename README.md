@@ -73,7 +73,7 @@ https://localhost:5173
 ```bash
 {
   "ApiSettings": {
-    "ApiKey": "your_api_key_here"
+    "ApiKey": "YOUR_API_KEY"
   }
 }
 ```
