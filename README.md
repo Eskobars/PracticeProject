@@ -5,7 +5,7 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 ## Tech Stack
 
 - Frontend Vue 3 (Vite)
-- Backend ASP.NET Core 7 Web API
+- Backend ASP.NET Core
 - HTTP Clients `HttpClientFactory` via `AddHttpClient`
 - Caching In-memory cache (`IMemoryCache`)
 - API Documentation Swagger (OpenAPI)
@@ -14,7 +14,7 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 
 ## Prerequisites
 
-- [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Node.js + npm](https://nodejs.org/)
 - Vite installed locally via `npm install`
 - [Visual Studio 2022+](https://visualstudio.microsoft.com/) with ASP.NET & Web Development workload
@@ -36,6 +36,8 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
   ```bash
   dotnet build VueApp1.sln
   dotnet run --project VueApp1.Server
+    or
+  VueApp1.Server -> dotnet run 
   
 Swagger UI is available at:
 https://localhost:7033/swagger/index.html
@@ -58,9 +60,10 @@ https://localhost:5173
 
     Press F5 to launch with debugger.
 
-    The frontend (Vite) should start but you can run it separately — start it via npm run dev.
+    The frontend (Vite) should start but you can run it separately — start it with npm run dev inside VueApp1.Client directory.
 
     You may need to refresh the page at first start.
+
 
 
 ## API Key Configuration
