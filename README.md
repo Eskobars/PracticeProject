@@ -5,7 +5,7 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 ## Tech Stack
 
 - Frontend Vue 3 (Vite)
-- Backend ASP.NET Core 7 Web API
+- Backend ASP.NET Core
 - HTTP Clients `HttpClientFactory` via `AddHttpClient`
 - Caching In-memory cache (`IMemoryCache`)
 - API Documentation Swagger (OpenAPI)
@@ -14,7 +14,7 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 
 ## Prerequisites
 
-- [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Node.js + npm](https://nodejs.org/)
 - Vite installed locally via `npm install`
 - [Visual Studio 2022+](https://visualstudio.microsoft.com/) with ASP.NET & Web Development workload
@@ -54,7 +54,7 @@ https://localhost:5173
 
 ## Debugging in Visual Studio
 
-To succesfully run the debugger I had to adjust a file inside .vscode called launch.json to look like the following:
+To succesfully run the debugger I had to adjust a file inside .vscode folder inside the client directory called launch.json to look like the following:
 
  ```bash
 {
