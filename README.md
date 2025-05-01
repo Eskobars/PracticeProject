@@ -31,7 +31,11 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 
 - Open the solution in Visual Studio (`VueApp1.sln`).
 - Build and run the backend project (`VueApp1.Server`).
+- Alternatively, you can run the backend manually from the command line:
 
+  ```bash
+  dotnet run --project VueApp1.Server
+  
 Swagger UI is available at:
 https://localhost:7033/swagger/index.html
 
