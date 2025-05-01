@@ -1,4 +1,4 @@
-# Vue + ASP.NET Core Soccer & Posts Project
+# Vue + ASP.NET Core Football.api & JSONPlaceholder project
 
 This project is a full-stack application using Vite (Vue 3) for the frontend and ASP.NET Core Web API for the backend. It consumes an external Soccer API and the JSONPlaceholder posts API.
 
