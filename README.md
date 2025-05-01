@@ -27,10 +27,8 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 
 - Open the solution in Visual Studio (`VueApp1.sln`).
 - Build and run the backend project (`VueApp1.Server`).
-- The API will run at `https://localhost:7033`.
 
 Swagger UI is available at:
-
 https://localhost:7033/swagger/index.html
 
 
@@ -39,6 +37,7 @@ https://localhost:7033/swagger/index.html
 In the `VueApp1.Client` directory:
 
 npm install
+
 npm run dev
 
 Frontend will run at:
@@ -116,8 +115,6 @@ VueApp1
       Delete a post:
       DELETE /api/posts/{id}
 
-Swagger is available for testing endpoints:
-https://localhost:7033/swagger/index.html
 
 
 ## Notes
