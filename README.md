@@ -43,11 +43,10 @@ https://localhost:7033/swagger/index.html
 ### 2. Frontend (Vue with Vite)
 
 In the `VueApp1.Client` directory:
-
-npm install
-
-npm run dev
-
+ ```bash
+    npm install
+    npm run dev
+```
 Frontend will run at:
 
 https://localhost:5173
