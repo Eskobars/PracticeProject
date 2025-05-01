@@ -53,6 +53,8 @@ https://localhost:5173
 
     The frontend (Vite) should start but you can run it separately — start it via npm run dev.
 
+    You may need to refresh the page at first start.
+
 
 ## API Key Configuration
 
