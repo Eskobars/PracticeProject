@@ -36,6 +36,8 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
   ```bash
   dotnet build VueApp1.sln
   dotnet run --project VueApp1.Server
+    or
+  VueApp1.Server -> dotnet run 
   
 Swagger UI is available at:
 https://localhost:7033/swagger/index.html
