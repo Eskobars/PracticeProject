@@ -117,4 +117,5 @@ https://localhost:7033/swagger/index.html
 
 
 ## Notes
-    The external Soccer API may be rate-limited — a 3s delay is added between requests to different leagues.
+    - The external Soccer API may be rate-limited — a 3s delay is added between requests to different leagues.
+    - Trying to update a self-created post fails due to JSONPlaceholder limitations. 
