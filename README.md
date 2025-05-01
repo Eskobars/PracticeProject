@@ -54,6 +54,30 @@ https://localhost:5173
 
 ## Debugging in Visual Studio
 
+To succesfully run the debugger I had to adjust a file inside .vscode called launch.json to look like the following:
+
+ ```bash
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Debug App",
+            "url": "https://localhost:5173",
+            "webRoot": "${workspaceFolder}/src",
+            "sourceMapPathOverrides": {
+                "webpack:///./src/*": "${webRoot}/*"
+            },
+            "runtimeArgs": [
+                "--remote-debugging-port=9222"
+            ],
+            "sourceMaps": true
+        }
+    ]
+}
+```
+
     Set VueApp1.Server as the startup project.
 
     Press F5 to launch with debugger.
@@ -61,6 +85,7 @@ https://localhost:5173
     The frontend (Vite) should start but you can run it separately — start it via npm run dev.
 
     You may need to refresh the page at first start.
+
 
 
 ## API Key Configuration
