@@ -20,6 +20,10 @@ This project is a full-stack application using Vite (Vue 3) for the frontend and
 - [Visual Studio 2022+](https://visualstudio.microsoft.com/) with ASP.NET & Web Development workload
 - OR use [VS Code](https://code.visualstudio.com/) + Chrome for debugging
 
+## Notes
+    - The external Soccer API may be rate-limited — a 3s delay is added between requests to different leagues.
+    - Trying to update a self-created post fails due to JSONPlaceholder limitations. 
+    - May require a page refresh upon starting.
 
 ## Running the App
 
@@ -117,6 +121,3 @@ VueApp1
 
 
 
-## Notes
-    - The external Soccer API may be rate-limited — a 3s delay is added between requests to different leagues.
-    - Trying to update a self-created post fails due to JSONPlaceholder limitations. 
