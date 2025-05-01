@@ -44,12 +44,6 @@ public class PostService : IPostService
 
     public async Task<Post> UpdatePostAsync(int id, Post post)
     {
-        //// Ensure userId is always present (JSONPlaceholder requires it)
-        //if (post.UserId == 0)
-        //{
-        //    post.UserId = 1; // default value
-        //}
-
         var content = JsonContent.Create(post);
         var response = await _httpClient.PutAsync($"posts/{id}", content);
         response.EnsureSuccessStatusCode();
