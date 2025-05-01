@@ -58,6 +58,8 @@ https://localhost:5173
 
 ## API Key Configuration
 
+    You can find an api key by logging into https://dashboard.api-football.com/login/ or by inserting the one I have sent via e-mail.
+
     Open appsettings.json in VueApp1.Server.
 
     Insert your key into this part of the code.
